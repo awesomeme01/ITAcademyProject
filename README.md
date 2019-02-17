@@ -1,3 +1,3 @@
 "# ITAcademyProject" 
 
-Перед запуском удалите .idea
+Перед запуском IDEA InteliJ удалите .idea
