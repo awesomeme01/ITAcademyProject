@@ -1,0 +1,96 @@
+ 
+.form1{
+	display: block;
+	width: 50%;
+	margin: 50px auto;
+	background-color: white;
+	border-radius: 20px;
+	padding: 30px;
+	box-shadow: 0px 0px 1em #223165;
+}
+.form1 h5{
+	font-size: 16px;
+	font-family: arial;
+	font-weight: 600;
+	color: darkgreen;
+	/*text-align: center;*/
+	margin: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.form1 h1{
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: darkgreen;
+	text-align: center;
+}
+.redstar{
+	font-weight: 700;
+	color: red;
+}
+
+.form1 input,select, textarea{
+	background-color: lightgray;
+	height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	padding: 5px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: arial;
+	transition: .2s ease;
+}
+.focuses:focus{
+	outline:none;
+	background-color: #bae4c3;
+	transition: .2s ease;
+	border: 2px solid darkgreen;
+}
+textarea{
+	height: 140px;
+	resize: none;
+	padding: 10px 5px;
+}
+#submitBtn{
+	display: block;
+	background-color: lightgreen;
+	color: darkgreen;
+	margin-top: 30px;
+	font-size: 20px;
+	height: 50px;
+	transition: .3s ease;
+}
+#submitBtn:hover{
+	background-color: darkgreen;
+	color: white;
+	transition: .3s ease;
+	height: 61px;
+	font-size: 25px;
+}
+#backBlock{
+	width: 50%;
+	margin: 50px auto;
+	display: block;
+}
+#back{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background-color: #eab5b5;
+	font-family: arial;
+	font-size: 20px;
+	color: #6f3b3b;
+	width: 80px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px .5em #223165;
+}
+#back:hover{
+	background-color: #d25858;
+	color: #eaeaea;
+}
